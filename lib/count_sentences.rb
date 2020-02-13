@@ -3,10 +3,10 @@ require 'pry'
 class String
 
   def sentence?
-    if self.sentence?
-      "Hi, my name is Sophie." = true 
-   elsif self.sentence?
-    "Hi, my name is Sophie" = false 
+    if self.end_with?(".")
+      true 
+   elsif 
+      false 
     end
 
   def question?
