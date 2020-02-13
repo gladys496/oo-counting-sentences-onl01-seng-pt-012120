@@ -30,6 +30,6 @@ end
 
 
   def count_sentences
-new_array =
+
   end
 end
