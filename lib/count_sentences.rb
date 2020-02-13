@@ -3,8 +3,11 @@ require 'pry'
 class String
 
   def sentence?
-    self.sentence?
-  end
+    if self.sentence?
+      "Hi, my name is Sophie." = true 
+   elsif self.sentence_new 
+    "Hi, my name is Sophie" = false 
+    end
 
   def question?
 
