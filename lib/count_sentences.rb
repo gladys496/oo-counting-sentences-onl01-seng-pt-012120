@@ -4,9 +4,9 @@ class String
 
   def sentence?
     if self.end_with?(".")
-      true 
+      return true 
    elsif 
-      false 
+      return false 
     end
 
   def question?
